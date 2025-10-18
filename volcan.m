@@ -46,3 +46,5 @@ ylabel('Altura (m)')
 title('Tiro parabólico desde un volcán con diferentes trayectorias')
 legend(arrayfun(@(i) sprintf('Trayectoria %d', i), 1:n, 'UniformOutput', false))
 axis tight
+
+jknhjnh
