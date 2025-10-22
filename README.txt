@@ -1,3 +1,12 @@
+El documento completo es "volcan 3d con proyectiles con resistencia del aire", los otros son únicamente para que vean mi proceso en caso de dudas
+
+Cosas que faltan por implementar:
+Hacer los pedruscos 3D
+Animar los pedruscos en lugar de modelar toda la trayectoria
+Incluir zonas de probabilidad (esto solo es colorear donde es más probable que caiga, es más simple de lo que suena)
+
+ORDEN PARA LEER LOS CODIGOS (recomendacion)
+
 Codigos para tiro parabolico SIN RESISTENCIA
 tiro parabolico sin resistencia.m %2D
 tiro parabolico 3d (sin resistencia).m %3D
@@ -14,3 +23,4 @@ volcan 3d con proyectiles (sin resistencia).m %combinando el codigo para volcan 
 volcan 3d con proyectiles con resistencia del aire.m %combinando el codigo para volcan y el codigo para projectiles con resistencia
 
 Espero le entiendan y honestamente si me pude haber saltado codigos como el de volcan 3d con proyectiles (sin resistencia) pq ya tenia el modelo 3d con resistencia para proyectiles pero la nta no la queria regar. eso es todo chaoo
+
