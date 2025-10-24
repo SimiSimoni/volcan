@@ -75,15 +75,6 @@ for i = 1:n
         '°, azim = ', num2str(phi, '%.2f'), '°']); 
 end 
 
-% radio anillos
-dist_ordenadas = sort(distancias);
-
-R1 = dist_ordenadas( max(1, round(0.5*n)) );   % 50% de impactos
-R2 = dist_ordenadas( max(1, round(0.8*n)) );   % 80%
-R3 = dist_ordenadas( max(1, round(0.95*n)) );  % 95%
-R4 = max(distancias);                           % distancia máxima ~0 probabilidad
-
-anillo_radios = [R1, R2, R3, R4];
 % anillo riesgo
 anillo_colores = [1 0 0; 1 0.5 0; 1 1 0; 0 1 0]; % RGB para rojo naranja amarillo verde
 
