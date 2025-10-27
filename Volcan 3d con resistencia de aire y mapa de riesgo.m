@@ -18,7 +18,7 @@ camlight headlight
 hold on 
 
 % proyectiles 3d
-n = 50; % número de proyectiles
+n = 1000; % número de proyectiles
 v = [25, 50, 75, 100,125,150,175,200]; % velocidades posibles
 g = 9.81; 
 h0 = 5400; % altura del volcán
